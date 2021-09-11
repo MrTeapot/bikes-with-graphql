@@ -1,0 +1,16 @@
+{
+  "all": true,
+  "check-coverage": true,
+  "cache": false,
+  "reporter": [
+    "text",
+    "text-summary"
+  ],
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "src/database/**/*",
+    "src/index.js"
+  ]
+}
